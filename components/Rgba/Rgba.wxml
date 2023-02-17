@@ -1,0 +1,12 @@
+<view class="container" style="background-color: rgba({{fullcolor}});">
+      <text style="color: white;">顏色值：{{fullcolor}}</text>
+</view>
+<button size="mini" bindtap="changeColorR" style="color: red;" type="warn">R</button>
+<button size="mini" bindtap="changeColorG" type="default">G</button>
+<button size="mini" bindtap="changeColorB" style="color: blue;" type="warn">B</button>
+<slot></slot>
+<text>{{username}}：{{count}}</text>
+<view>{{a}}+{{b}}={{sum}}</view>
+
+<van-button type="primary" bindtap="HanderlAdd" data-step="{{1}}">+1</van-button>
+<van-button type="danger" bindtap="HanderlSub" data-step="{{-1}}">-1</van-button>

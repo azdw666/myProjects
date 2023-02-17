@@ -1,0 +1,4 @@
+<view>{{a}}+{{b}}={{sum}}</view>
+
+<van-button type="primary" bindtap="HanderlAdd" data-step="{{1}}">+1</van-button>
+<van-button type="danger" bindtap="HanderlSub" data-step="{{-1}}">-1</van-button>

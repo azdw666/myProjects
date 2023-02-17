@@ -1,0 +1,33 @@
+<!--pages/list/list.wxml-->
+
+<!-- <scroll-view class="container1" scroll-y>
+    <view>A</view>
+    <view>B</view>
+    <view>C</view>
+</scroll-view> -->
+<!-- <swiper indicator-dots="true" class="container2" autoplay="true" interval="3000" circular="true">
+  <swiper-item>
+    <view class="item">A</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="item">B</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="item">C</view>
+  </swiper-item>
+</swiper> -->
+
+<!-- <image src="{{imgurl}}" mode="aspectFill"></image> -->
+<map longitude="120" latitude="28" style="width:100%;">
+
+</map>
+<button type="warn" bindtap="onClick" data-xx="hi">点我，求你了</button>
+<input class="weui-input" bindinput="inputHanlder" placeholder="请输入"/>
+<view wx:for="{{arr}}" wx:key="index">
+  <view class="news">{{item}}</view>
+</view>
+<button type="warn" bindtap="requestSend">发送请求</button>
+<navigator url="/pages/info/info?a=2&b=3">传参</navigator>
+<view class="box">
+
+</view>
